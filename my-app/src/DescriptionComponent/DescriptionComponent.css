@@ -1,0 +1,48 @@
+.grid-container02 {
+    display: grid;
+    column-gap: -10px;
+    grid-template-columns: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
+  .grid-item02 {
+    padding-left: 5px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+  }
+  .grid-container02 {
+    color: black;
+    display: grid;
+    column-gap: -10px;
+    grid-template-columns: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .grid-item03 {
+    color: black;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 215px;
+    margin-top: -120px;
+    position: obslute;
+  }
+  .descrip{
+      width: 75%;
+      height: 70%;
+  }
+  .title{
+      padding-top: -10px;
+  }
+  .head{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: inherit;
+  }
+  .text{
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
+  }
+  .read{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+  }

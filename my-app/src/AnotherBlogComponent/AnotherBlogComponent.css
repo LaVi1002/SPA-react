@@ -1,0 +1,14 @@
+.grid-container07 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+  }
+  .grid-item09{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 40px;
+  }

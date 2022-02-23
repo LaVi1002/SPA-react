@@ -13,17 +13,33 @@
     text-align: center;
   }
   .sub{
-      color: blue;
       border: none;
+      color: #1976d2;
+      line-height: 1.75;
       background-color: white;
+      text-align: center;
+      justify-content: center;
+      background-color: transparent;
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
+      font-weight: 500;
+  }
+  .sub:hover{
+      background-color: #cbe7f1;
+      border-radius: 3px;
   }
   .sign{
+      text-align: center;
+      justify-content: center;
       border-color: blue;
       background-color: white;
       height: 30px;
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
   }
   .blog{
+      text-align: center;
       margin-top: 10px;
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
+      font-weight: 400;
   }
   .src{
       height: 10px;

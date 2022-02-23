@@ -39,6 +39,10 @@
   .head{
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     color: inherit;
+    display: block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    line-height: 1.165;
+    font-weight: 400;
   }
   .text{
       font-family: "Roboto","Helvetica","Arial",sans-serif;

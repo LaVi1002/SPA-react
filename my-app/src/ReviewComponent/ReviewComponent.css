@@ -7,12 +7,14 @@
   }
   
   .grid-item01 {
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.8);
     padding-left: 5px;
     font-size: 30px;
     text-align: center;
   }
   .sub{
+      justify-content: center;
       border: none;
       color: #1976d2;
       line-height: 1.75;
@@ -22,6 +24,7 @@
       background-color: transparent;
       font-family: "Roboto","Helvetica","Arial",sans-serif;
       font-weight: 500;
+      cursor: pointer;
   }
   .sub:hover{
       background-color: #cbe7f1;
@@ -34,18 +37,23 @@
       background-color: white;
       height: 30px;
       font-family: "Roboto","Helvetica","Arial",sans-serif;
+      cursor: pointer;
   }
   .blog{
+      justify-content: center;
       text-align: center;
       margin-top: 10px;
       font-family: "Roboto","Helvetica","Arial",sans-serif;
       font-weight: 400;
   }
   .src{
+      justify-content: center;
       height: 10px;
       border-radius: 15px;
       background-color: white;
       border: none;
+      padding-right: 10px;
+      cursor: pointer;
   }
   .src:hover{
       background-color: rgb(230, 227, 227);

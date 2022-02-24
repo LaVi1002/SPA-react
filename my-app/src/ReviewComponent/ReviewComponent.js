@@ -15,7 +15,6 @@ const ReviewComponent = () => {
                 <button className="src"><GrSearch /></button>
                 <button className="sign">SIGN UP</button>
             </div>
-            <hr className="horizontal"/>
         </div>
     )
 }

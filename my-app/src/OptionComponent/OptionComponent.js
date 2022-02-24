@@ -4,17 +4,18 @@ import './OptionComponent.css'
 const OptionComponent = () => {
     return(
         <div className="list">
-        <ul>
-                <li><a href="#Technology">Technology</a></li>
-                <li><a href="#Design">Design</a></li>
-                <li><a href="#Culture">Culture</a></li>
-                <li><a href="#Business">Business</a></li>
-                <li><a href="#Politics">Politics</a></li>
-                <li><a href="#Opinion">Opinion</a></li>
-                <li><a href="#Science">Science</a></li>
-                <li><a href="#Health">Health</a></li>
-                <li><a href="#Style">Style</a></li>
-                <li><a href="#Travel">Travel</a></li>
+            <hr></hr>
+        <ul className="options">
+                <li className="lst"><a href="#Technology">Technology</a></li>
+                <li className="lst"><a href="#Design">Design</a></li>
+                <li className="lst"><a href="#Culture">Culture</a></li>
+                <li className="lst"><a href="#Business">Business</a></li>
+                <li className="lst"><a href="#Politics">Politics</a></li>
+                <li className="lst"><a href="#Opinion">Opinion</a></li>
+                <li className="lst"><a href="#Science">Science</a></li>
+                <li className="lst"><a href="#Health">Health</a></li>
+                <li className="lst"><a href="#Style">Style</a></li>
+                <li className="lst"><a href="#Travel">Travel</a></li>
                 </ul>
         </div>
     )

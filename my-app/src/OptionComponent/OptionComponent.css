@@ -7,9 +7,10 @@
     padding-right: 35px;
     margin-left: 10px;
     margin-right: 35px;
+    margin-top: -30px;
 
 }
-ul{
+.options{
     text-align: center;
     justify-content: center;
     margin-top: -20px;
@@ -17,8 +18,9 @@ ul{
     padding-right: 35px;
     margin-left: 10PX;
     margin-right: 35px;
+    margin-top: 10px;
 }
-li{
+.lst{
     text-align: center;
     justify-content: center;
     display: inline;
@@ -26,9 +28,8 @@ li{
     margin-right: -30PX;
     cursor: pointer;
     overflow: hidden;
-
 }
-li a{
+.lst a{
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-weight: 400;
     color: black;
@@ -37,6 +38,8 @@ li a{
     margin-left: 60PX;
     line-height: 1.43;
     overflow: hidden;
-
-
+}
+hr{
+    width: 1170px;
+    margin-right: 110px;
 }

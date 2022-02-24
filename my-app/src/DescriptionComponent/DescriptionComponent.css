@@ -1,52 +1,48 @@
-.grid-container02 {
-    display: grid;
-    column-gap: -10px;
-    grid-template-columns: auto;
-    margin-top: 40px;
-    margin-left: 20px;
-  }
-  
-  .grid-item02 {
-    padding-left: 5px;
-    font-size: 30px;
-    text-align: center;
-    position: relative;
-  }
-  .grid-container02 {
-    color: black;
-    display: grid;
-    column-gap: -10px;
-    grid-template-columns: auto;
-    margin-top: 40px;
-    margin-left: 20px;
-  }
-  .grid-item03 {
-    color: black;
-    padding-left: 5px;
-    font-size: 30px;
-    text-align: left;
-    margin-left: 215px;
-    margin-top: -120px;
-    position: obslute;
-  }
-  .descrip{
-      width: 75%;
-      height: 70%;
-  }
-  .title{
-      padding-top: -10px;
-  }
-  .head{
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
-    color: inherit;
-    display: block;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
-    line-height: 1.165;
-    font-weight: 400;
-  }
-  .text{
-      font-family: "Roboto","Helvetica","Arial",sans-serif;
-  }
-  .read{
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
-  }
+/* .img001{
+  position: relative;
+} 
+.img002{
+  position: absolute;
+} */
+.kit { 
+  margin-bottom: 60px;
+  margin-left: 230px;
+  margin-right: 230px;
+  position: relative; 
+  height: 380px;
+  width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://media.istockphoto.com/photos/fossli-provincial-park-vancouver-island-picture-id1285518457?b=1&k=20&m=1285518457&s=170667a&w=0&h=-H_svcT6VwzmbP-UDbw5nl5E44EVxC9AvfTR1briFiw=");
+  background-size: cover;
+}
+.kit-text{
+  position: absolute;
+}
+.deshead{
+  justify-content: center;
+  text-align: left;
+  margin-left: -70px;
+  margin-right: 450px;
+  color: white;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  line-height: 1.167;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+.despara{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  word-spacing: 3px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.334;
+  margin-left: -70px;
+  color: white;
+}
+.reading{
+  color: #1976d2;
+  cursor: pointer;
+}

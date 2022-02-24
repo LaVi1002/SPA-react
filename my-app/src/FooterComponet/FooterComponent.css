@@ -1,14 +1,33 @@
-.grid-container08 {
+.grid-container09 {
     display: grid;
     column-gap: 10px;
     grid-template-columns: auto auto;
   }
-  .grid-item10{
+  .grid-item11{
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    width: 500px;
-    height: 200px;
+    width: 10;
+    height: 150px;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 40px;
+    display: block;
+  }
+  .foothead{
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+  }
+  .paragraph22{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .paragraph23{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .footlink{
+    color: rgba(0, 0, 0, 0.6);
   }

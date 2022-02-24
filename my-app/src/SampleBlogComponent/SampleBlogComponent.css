@@ -2,10 +2,11 @@
     display: grid;
     column-gap: 10px;
     grid-template-columns: auto auto auto;
+    margin-bottom: 10px;
   }
   .grid-item06 {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     width: 800px;
     height: 1200px;
     text-align: center;
@@ -14,10 +15,10 @@
   }
   
   .grid-item07 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #eeeeee;;
+    background-color: #eeeeee;
     width: 365px;
-    height: 200px;
+    height: 190px;
     text-align: center;
     margin-left: 10px;
     margin-right: 180px;
@@ -25,7 +26,6 @@
   }
   .grid-item08 {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
     width: 365px;
     height: 300px;
     text-align: left;
@@ -33,14 +33,207 @@
     margin-right: 10px;
     margin-top: 290px;
   }
-  .grid-item09 {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    width: 365px;
-    height: 200px;
+  .samplehead01{
     text-align: left;
-    margin-left: -555px;
-    margin-right: 10px;
-    margin-top: 290px;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+  }
+  .hr{
+    width: 795px;
+    margin-left: 1px;
+  }
+  .post{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .date3{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .olive{
+    padding-left:10px;
+  }
+  .paragraph01{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00948em;
+  }
+  .paragraph02{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00948em;
+  }
+  .paragraph03{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph04{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph05{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph06{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph07{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph08{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph09{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph10{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph11{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .paragraph12{
+    justify-content: center;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 10px;
+    letter-spacing: 0.00938em;
+  }
+  .samplehead02{
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .bullets{
+    text-align: left;
+    justify-content: center;
+    line-height: 1.5;
+  }
+  .numbers{
+    text-align: left;
+    justify-content: center;
+    line-height: 1.5;
+  }
+  .samplehead03{
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 550;
+  }
+  .samplehead04{
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 550;
+  }
+  .grid-item08 a{
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: #1976d2;
+  }
+  .samplehead05{
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 550;
+  }
+  span{
+    padding-left: 10px;
+    color: #1976d2;
+  }
+  .icns{
+    color: #1976d2;
   }
   

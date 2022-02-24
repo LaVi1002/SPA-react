@@ -1,14 +1,75 @@
 .grid-container07 {
-    display: grid;
-    column-gap: 10px;
-    grid-template-columns: auto auto;
-  }
-  .grid-item09{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    width: 800px;
-    height: 500px;
-    text-align: center;
-    margin-left: 220px;
-    margin-top: 40px;
-  }
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto;
+  margin-top: -150px;
+}
+.grid-item09{
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  margin-left: 220px;
+  margin-top: 40px;
+}
+.anotherhead{
+  text-align: left;
+  justify-content: center;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.paragraph13{
+  justify-content: center;
+  text-align: left;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 10px;
+  letter-spacing: 0.00938em;
+}
+.paragraph14{
+  justify-content: center;
+  text-align: left;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 10px;
+  letter-spacing: 0.00938em;
+}
+.paragraph15{
+  justify-content: center;
+  text-align: left;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 10px;
+  letter-spacing: 0.00938em;
+}
+.paragraph16{
+  justify-content: center;
+  text-align: left;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 10px;
+  letter-spacing: 0.00938em;
+}
+.paragraph17{
+  justify-content: center;
+  text-align: left;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 10px;
+  letter-spacing: 0.00938em;
+}
+.Matt{
+  color: #1976d2;
+}

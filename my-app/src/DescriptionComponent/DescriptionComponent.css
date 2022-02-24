@@ -17,6 +17,15 @@
   background-image: url("https://media.istockphoto.com/photos/fossli-provincial-park-vancouver-island-picture-id1285518457?b=1&k=20&m=1285518457&s=170667a&w=0&h=-H_svcT6VwzmbP-UDbw5nl5E44EVxC9AvfTR1briFiw=");
   background-size: cover;
 }
+.kit::before {
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: rgba(22, 28, 36, 0.8);
+}
 .kit-text{
   position: absolute;
 }

@@ -4,30 +4,36 @@
     grid-template-columns: auto auto;
   }
   .grid-item11{
-    background-color: rgba(255, 255, 255, 0.8);
     width: 10;
     height: 150px;
     text-align: center;
     margin-left: 600px;
-    margin-top: 40px;
+    margin-top: 10px;
     display: block;
   }
   .foothead{
     text-align: center;
     justify-content: center;
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-weight: 400;
+    font-weight: 10px;
+    font-size: 22px;
+    margin-top: 780px;
   }
   .paragraph22{
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    margin-top: -40px;
   }
-  .paragraph23{
+  /* .paragraph23{
     font-family: "Roboto","Helvetica","Arial",sans-serif;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
-  }
+  } */
   .footlink{
     color: rgba(0, 0, 0, 0.6);
   }
